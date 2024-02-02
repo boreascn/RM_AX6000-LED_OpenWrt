@@ -19,8 +19,7 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: 0 16 * * 4
-
+    - cron:* * * * *
 env:
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
